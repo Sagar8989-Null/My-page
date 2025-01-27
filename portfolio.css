@@ -6,13 +6,16 @@
 }
 
 :root {
-    --color1: #fd6f00;
+    /* --color1: #fd6f00;
     --color2: #1E1E1E;
-    --color3: white;
+    --color3: white; */
+    --color1: #fd6f00;
+    --color3: #1E1E1E;
+    --color2: white;
 }
 
 html {
-    background: #1E1E1E;
+    background: var(--color2);
     height: 100vh;
     width: 100vw;
 
@@ -89,6 +92,16 @@ nav>svg {
 }
 
 nav>button{
+    height: 30px;
+    width: 30px;
+    background: var(--color2);
+    display: block;
+    color: var(--color1);
+    border: 0px;
+
+}
+
+.logo>button{
     height: 30px;
     width: 30px;
     background: var(--color2);
@@ -257,7 +270,7 @@ input {
     border-radius: 5px;
     display: block;
     justify-self: center;
-    /* color: var(--color3); */
+    border: 1px solid black;
 }
 
 .buttons>button {
@@ -267,7 +280,7 @@ input {
     background-color: var(--color1);
     display: block;
     justify-self: center;
-    color: var(--color3);
+    color: white;
 }
 
 .contents>a{
@@ -290,8 +303,8 @@ input {
 }
 
 footer {
-    background-color: rgb(18, 18, 18);
-    color: var(--color3);
+    background-color: var(--color2);
+    color:var(--color3);
     /* position: relative; */
     /* bottom: 0px; */
     height: 5vh;
