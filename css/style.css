@@ -783,6 +783,7 @@ footer .copyright-text {
 @media(max-width: 767px) {
     .header-social {
         left: 10%;
+        top:65%;
     }
 
     .service-section .service-item,
