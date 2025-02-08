@@ -762,13 +762,16 @@ footer .copyright-text {
         top: 65%;
     }
 
-    .service-section .service-item,
+    .service-section .service-item{
+        flex: 0 0 100%;
+        max-width: max-content; 
+    }
     .portfolio .portfolio-item,
     .pricing .pricing-item,
     .contact-section .contact-item,
     .contact-section .w-50,
     .about-section .about-content {
         flex: 0 0 100%;
-        max-width: 100%;
+        max-width: 100%;  
     }
 }
