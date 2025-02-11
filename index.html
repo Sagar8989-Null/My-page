@@ -183,20 +183,19 @@
             </div>
             <div class="row">
                 <div class="contact-form">
-                    <form action="connect1.php" method="post">
+                    <form action="/database/connect.php" method="post">
                         <div class="row">
                             <div class="w-50">
                                 <div class="input-group">
-                                    <input type="text" placeholder="Name" class="input-control" name="Name">
+                                    <input type="text" placeholder="Name" class="input-control" name="Name" required>
                                 </div>
                                 <div class="input-group">
-                                    <input type="email" placeholder="Email" class="input-control" name="Email">
+                                    <input type="email" placeholder="Email" class="input-control" name="Email" required>
                                 </div>
                             </div>
                             <div class="w-50">
                                 <div class="input-group">
-                                    <textarea name="Message" class="input-control" placeholder="Message" id="" cols="30"
-                                        rows="10"></textarea>
+                                    <textarea name="Message" class="input-control" placeholder="Message" id="" cols="30" rows="10" required></textarea>
                                 </div>
                             </div>
                         </div>
@@ -205,7 +204,7 @@
                                 <button type="submit" class="btn-1">Submit</button>
                             </div>
                         </div>
-                    </form>
+                    </form>                                        
                 </div>
             </div>
         </div>
