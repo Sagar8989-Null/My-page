@@ -1,5 +1,5 @@
 <?php
-
+// connect.php
 $servername = "be6sou9vfgjthfj5pnsp-mysql.services.clever-cloud.com";
 $username = "ue2xon9dk2lx29o5";
 $password = "3S9e95fZGGHWy7XDKaVj";
@@ -12,6 +12,10 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+else
+    {
+        echo "Connected succefully";
+    }
 
 // Get the form data
 $name = $_POST['Name'];
