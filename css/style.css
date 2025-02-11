@@ -383,7 +383,7 @@ img {
 }
 
 .about-section .about-image .img-box .about-shape {
-    width: 510px;
+    width: 528px;
     height: 644px;
     border-left: 15px solid var(--main-color);
     border-bottom: 15px solid var(--main-color);
@@ -407,10 +407,10 @@ img {
     position: absolute;
     content: '';
     width: 104%;
-    height: 15px;
+    height: 17px;
     background-color: var(--main-color);
     top: 34px;
-    right: -2px;
+    right: -3px;
     transform: rotate(11deg);
     border-top-left-radius: 20px;
 }
